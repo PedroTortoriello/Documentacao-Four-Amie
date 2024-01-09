@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body {
+	margin: 0;
+	padding: 0;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0f0f0; /* Cor de fundo da página, opcional */
+	font-family: 'Inter', sans-serif;
+}
+
+header {
+	background-color: #0284C7; /* Cor de fundo verde */
+	color: white; /* Cor do texto branco */
+	text-align: center;
+	padding: 20px; /* Adicionar algum espaço interno para melhor aparência */
+	font-family: 'Inter', sans-serif;
+}
+
+.about, .login, .cadastro, .eventos, .gestao{
+	cursor: pointer;
+	margin-left: 13px;
+	margin-right: 13px;
+	font-size: 0.9rem;
+}
+
+
+/* Footer */
+
+.footer{
+	text-align: center;
+	background-color: #0284C7;
+	color: white;
+}
+
+.img-footer{
+	width: 50px;
+	height: 30px;
+	margin-top: 10px;
+}
+
+
+/* DropDown */
+
+.MCDropDown_Closed a.MCDropDownHotSpot, .MCDropDown_Open a.MCDropDownHotSpot {
+	text-decoration: none;
+	border-bottom: none;
+	padding: 10px 10px 10px 40px;
+}
+.MCDropDown_Closed a.MCDropDownHotSpot, .MCDropDown_Open a.MCDropDownHotSpot {
+	text-decoration: none;
+}
+.MCDropDownBody .MCDropDown_Closed .MCDropDownHotSpot_, .MCDropDown_Closed .MCDropDownHotSpot_ {
+	background-position: 10px 13px;
+	padding-right: 0px;
+}
+.MCDropDown_Closed .MCDropDownHotSpot_ {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.dropDownHotspot:link {
+	color: #333;
+	display: block;
+	font-size: 15px;
+	font-weight: normal;
+	padding-top: 10px;
+	margin-bottom: 0px;
+	padding-left: 10px;
+	margin-top: -1px;
+	height: auto;
+	padding-bottom: 10px;
+	text-decoration: none;
+}
+
+.MCDropDown {
+	border: 1px solid #34d714;
+	border-radius: 8px;
+	margin: 10px;
+}
+
+.MCDropDownBody {
+	display: none;
+}
