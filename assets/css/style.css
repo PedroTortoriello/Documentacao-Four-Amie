@@ -7,15 +7,15 @@ body {
 	justify-content: center;
 	align-items: center;
 	height: 100vh;
-	background-color: #f0f0f0; /* Cor de fundo da página, opcional */
+	background-color: #f0f0f0; 
 	font-family: 'Inter', sans-serif;
 }
 
 header {
-	background-color: #0284C7; /* Cor de fundo verde */
-	color: white; /* Cor do texto branco */
+	background-color: #0284C7; 
+	color: white;
 	text-align: center;
-	padding: 20px; /* Adicionar algum espaço interno para melhor aparência */
+	padding: 20px;
 	font-family: 'Inter', sans-serif;
 }
 
