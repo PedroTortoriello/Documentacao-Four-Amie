@@ -44,6 +44,33 @@ a{
 	color: white;
 }
 
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-content {
+  display: flex;
+  align-items: center;
+}
+
+.login-title,
+.login-img,
+.login-text,
+.MCDropDown {
+  margin: 10px;
+}
+
+.img-login {
+  width: 200px;
+  height: 200px;
+  border: 2px solid #333;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 /* Footer */
 
 .footer{
@@ -61,45 +88,41 @@ a{
 
 /* DropDown */
 
-.MCDropDown_Closed a.MCDropDownHotSpot, .MCDropDown_Open a.MCDropDownHotSpot {
-	text-decoration: none;
-	border-bottom: none;
-	padding: 10px 10px 10px 40px;
+.MCDropDown, .dropDown1 {
+  display: inline-block;
+  border: 1px solid #34d714;
+  border-radius: 8px;
+  margin: 10px;
 }
-.MCDropDown_Closed a.MCDropDownHotSpot, .MCDropDown_Open a.MCDropDownHotSpot {
-	text-decoration: none;
+
+.MCDropDownBody, .dropDown1 {
+  display: none;
+  padding: 10px; /* Adiciona um pequeno preenchimento para dar espaço ao redor do conteúdo dentro do bloco */
 }
-.MCDropDownBody .MCDropDown_Closed .MCDropDownHotSpot_, .MCDropDown_Closed .MCDropDownHotSpot_ {
-	background-position: 10px 13px;
-	padding-right: 0px;
-}
-.MCDropDown_Closed .MCDropDownHotSpot_ {
-	padding-left: 0px;
-	padding-right: 0px;
-}
+
 .dropDownHotspot:link {
-	color: #333;
-	display: block;
-	font-size: 15px;
-	font-weight: normal;
-	padding-top: 10px;
-	margin-bottom: 0px;
-	padding-left: 10px;
-	margin-top: -1px;
-	height: auto;
-	padding-bottom: 10px;
-	text-decoration: none;
+  color: #333;
+  display: block;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0;
+  padding: 8px; /* Ajusta o preenchimento para manter a borda a 2px do texto */
+  text-decoration: none;
 }
 
-.MCDropDown {
-	border: 1px solid #34d714;
-	border-radius: 8px;
-	margin: 10px;
+/* Remove as bordas e o preenchimento para o link dentro da dropdown */
+.MCDropDownBody a {
+  border: none;
+  padding: 0;
 }
 
-.MCDropDownBody {
-	display: none;
+.img {
+  width: 540px;
+  height: 200px;
+  border: 2px solid #333;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
+
 
 
 @media screen and (max-width: 768px) {
