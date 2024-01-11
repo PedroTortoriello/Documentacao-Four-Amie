@@ -32,7 +32,7 @@ header {
 	width: 120px;
 }
 
-.about, .login, .cadastro, .eventos, .gestao{
+.about, .login, .cadastro, .eventos, .gestao, .botoes{
 	cursor: pointer;
 	margin-left: 13px;
 	margin-right: 13px;
@@ -178,7 +178,7 @@ a{
    margin-top: 5px;
   }
 
-  .about, .login, .cadastro, .eventos, .gestao{
+  .about, .login, .cadastro, .eventos, .gestao, .botoes{
     font-size: 0.7rem;
   }
 }
