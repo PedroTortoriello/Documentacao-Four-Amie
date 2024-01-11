@@ -44,6 +44,8 @@ a{
 	color: white;
 }
 
+/* LOGIN */
+
 .login-container {
   display: flex;
   flex-direction: column;
@@ -67,9 +69,10 @@ a{
   height: 200px;
   border: 2px solid #333;
   max-width: 100%;
-  height: auto;
   display: block;
 }
+
+
 
 /* Footer */
 
@@ -148,5 +151,19 @@ a{
     width: 150px;
     height: 40px;
     margin-top: 5px;
+  }
+
+  .img-login{
+    height: 150px;
+    max-width: 100%;
+  }
+
+  .img{
+    height: 80px;
+    width: 200px;
+  }
+
+  .about, .login, .cadastro, .eventos, .gestao{
+    font-size: 0.7rem;
   }
 }
