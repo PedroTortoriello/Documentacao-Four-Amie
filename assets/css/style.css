@@ -105,8 +105,13 @@ h1, h3 {
   margin: 0 auto;
 }
 
-.img-login, .img-cadastro, .img-footer {
+.img-login, .img-cadastro{
   max-width: 100%;
+}
+
+.img-footer {
+  width: 120px;
+  height: 35px;
 }
 
 footer {
