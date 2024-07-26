@@ -100,9 +100,10 @@ h1, h3 {
 
 .img {
   max-width: 100%;
-  height: auto;
+  height: 350px;
   display: block;
   margin: 0 auto;
+  justify-content: flex-start;
 }
 
 .img-login, .img-cadastro{
